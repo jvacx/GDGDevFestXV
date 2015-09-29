@@ -4,28 +4,26 @@ Este repositorio contiene el codigo fuente de la página oficial del evento
 GDG DevFest season 2015, evento llevado a cabo en La Paz, Bolivia.
 
 
-### ¿ Como Colaborar ?
-
 #### Tecnologías
 
-    - [NodeJS](https://nodejs.org/en/)
-    - [Grunt](http://gruntjs.com/)
-    - [Compass](http://compass-style.org/)
-    - [jQuery](https://jquery.com/)
-    - [Swig](http://paularmstrong.github.io/swig/)
-    - [MDL](http://www.getmdl.io/)
+  * [NodeJS](https://nodejs.org/en/)
+  * [Grunt](http://gruntjs.com/)
+  * [Compass](http://compass-style.org/)
+  * [jQuery](https://jquery.com/)
+  * [Swig](http://paularmstrong.github.io/swig/)
+  * [MDL](http://www.getmdl.io/)
 
 #### Requisitos
 
-    - Obvio tener un navegador decente.
-    - Tener instalado `nodejs`
-    - Tener instalado grunt `[sudo] npm install -g grunt-cli`
+  * Obvio tener un navegador decente.
+  * Tener instalado `nodejs`
+  * Tener instalado grunt `[sudo] npm install -g grunt-cli`
 
 #### Instalación
 
-    - ``git clone git@github.com:jvacx/GDGDevFestXV.git``
-    - ``[sudo] npm install``
-    - ``grunt start``
+  * `git clone git@github.com:jvacx/GDGDevFestXV.git`
+  * `[sudo] npm install`
+  * `grunt start`
 
 
 ### Licencia
