@@ -1,4 +1,4 @@
-{% set DEBUG = false %}
+{% set DEBUG = true %}
 
 <!DOCTYPE html>
 <html lang="es">

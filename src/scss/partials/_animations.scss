@@ -370,10 +370,12 @@
     @include transform-origin(100% 50%);
     @include animation(rotateRoomLeftOut, .8s, both, ease);
 }
+
 .page-rotateRoomLeftIn {
     @include transform-origin(0% 50%);
     @include animation(rotateRoomLeftIn, .8s, both, ease);
 }
+
 .page-rotateRoomRightOut {
     @include transform-origin(0% 50%);
     @include animation(rotateRoomRightOut, .8s, both, ease);

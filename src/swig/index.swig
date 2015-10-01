@@ -17,14 +17,14 @@
 
         {% include "sections/_location.swig" %}
         {% include "sections/_speakers.swig" %}
+
         {% include "sections/_schedule.swig" %}
+
         {% include "sections/_sponsors.swig" %}
 
         {% include "sections/_register.swig" %}
         {% include "sections/_footer.swig" %}
 
     </div>
-
-
 {% endblock %}
 
