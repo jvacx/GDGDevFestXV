@@ -21,7 +21,8 @@ GDG DevFest season 2015, evento llevado a cabo en La Paz, Bolivia.
 
 #### Instalación
 
-  * `git clone git@github.com:jvacx/GDGDevFestXV.git`
+  * `git clone git@github.com:jvacx/GDGDevFestXV.git GDGDevFestXV`
+  * `cd GDGDevFestXV`
   * `[sudo] npm install`
   * `npm install -g grunt-cli`
   * `grunt start`

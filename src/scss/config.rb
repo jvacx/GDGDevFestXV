@@ -1,4 +1,4 @@
-require "compass-recipes"
+
 http_path = "/"
 css_dir = "www/css"
 sass_dir = "src/scss"

@@ -17,7 +17,6 @@
 
         {% include "sections/_location.swig" %}
         {% include "sections/_speakers.swig" %}
-
         {% include "sections/_schedule.swig" %}
 
         {% include "sections/_sponsors.swig" %}
