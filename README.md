@@ -11,7 +11,7 @@ GDG DevFest season 2015, evento llevado a cabo en La Paz, Bolivia.
   * [Compass](http://compass-style.org/)
   * [jQuery](https://jquery.com/)
   * [Swig](http://paularmstrong.github.io/swig/)
-  * [MDL](http://www.getmdl.io/)
+  * [Materialize](http://materializecss.com/)
 
 #### Requisitos
 

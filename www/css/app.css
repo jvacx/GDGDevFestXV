@@ -82,6 +82,26 @@ body .clearfix {
   font-size: 13px;
 }
 
+/* line 1, ../../src/scss/partials/_page.scss */
+.bg-teal {
+  background-color: #009688;
+}
+
+/* line 5, ../../src/scss/partials/_page.scss */
+.bg-cyan {
+  background-color: #00BCD4;
+}
+
+/* line 8, ../../src/scss/partials/_page.scss */
+.bg-indigo {
+  background-color: #3F51B5;
+}
+
+/* line 11, ../../src/scss/partials/_page.scss */
+.bg-blue {
+  background-color: #2196F3;
+}
+
 /* line 3, ../../src/scss/pages/_schedule.scss */
 .avatar-image {
   width: 60px;
@@ -98,4 +118,17 @@ body .clearfix {
   font-family: "Roboto";
   font-weight: 300;
   font-size: 30px;
+}
+/* line 11, ../../src/scss/pages/_register.scss */
+.register-card .register-banner {
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ecf0f1;
+}
+/* line 19, ../../src/scss/pages/_register.scss */
+.register-card .without-bottom-margin {
+  margin-bottom: 0;
 }
