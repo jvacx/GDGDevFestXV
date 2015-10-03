@@ -31,11 +31,9 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    {% if DEBUG %}
-        <link rel="stylesheet" href="vendor/mdl/material.min.css">
-    {% else %}
-        <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.blue_grey-pink.min.css" />
-    {% endif %}
+
+    {#<link rel="stylesheet" href="vendor/mdl/material.min.css">#}
+    <link rel="stylesheet" href="vendor/materialize/css/materialize.css">
 
     <link rel="stylesheet" href="css/app.css">
 
@@ -49,18 +47,23 @@
 
     <body class="{% block body_class %}{% endblock %}">
 
-        {% block content %} {% endblock %}
+
+
+            {% block content %} {% endblock %}
+
 
         {% block prescripts %} {% endblock %}
 
         {% if DEBUG %}
-            <script async src="vendor/jquery.min.js"></script>
-            <script async src="vendor/mdl/material/material.min.js"></script>
-            <script async src="js/app.js"></script>
+            <script src="vendor/jquery.min.js"></script>
+
+            {#<script src="vendor/mdl/material.min.js"></script>#}
+            <script src="vendor/materialize/js/materialize.js"></script>
+            <script src="js/app.js"></script>
         {% else %}
             <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
-            <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
-            <script async src="js/scripts.min.js"></script>
+            {#<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>#}
+            <script src="js/scripts.min.js"></script>
         {% endif %}
 
         {% block scripts %}{% endblock %}

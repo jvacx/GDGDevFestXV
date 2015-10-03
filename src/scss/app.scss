@@ -20,8 +20,7 @@
 
 
 // # Partials ------------------------------------------------------------------
-@import "partials/animations";
-@import "partials/header";
+@import "partials/navbar";
 @import "partials/footer";
 @import "partials/page";
 @import "partials/content";
@@ -30,5 +29,6 @@
 
 // # Pages ---------------------------------------------------------------------
 @import "pages/schedule";
+@import "pages/register";
 
 

@@ -1,0 +1,17 @@
+
+.navbar {
+    background: $clouds;
+    box-shadow: none;
+    border-bottom: 1px solid darken($clouds, 5%);
+    .logo {
+        height: 70px;
+    }
+
+    .nav-menu li a {
+        color: $darken;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+}
+
