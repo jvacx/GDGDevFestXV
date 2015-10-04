@@ -4,12 +4,11 @@
             <img src="img/logo.png" class="logo">
         </a>
         <ul class="nav-menu right hide-on-med-and-down">
-            <li><a href="sass.html">Acerca de</a></li>
-            <li><a href="sass.html">Lugar</a></li>
-            <li><a href="sass.html">Expositores</a></li>
-            <li><a href="sass.html">Agenda</a></li>
-            <li><a href="badges.html">Auspiciadores</a></li>
-            <li><a href="collapsible.html">Registrarse</a></li>
+            <li><a href="#">Acerca del evento</a></li>
+            <li><a href="#">Expositores</a></li>
+            <li><a href="#">Agenda</a></li>
+            <li><a href="#">Auspiciadores</a></li>
+            <li><a href="#">Registrarse</a></li>
         </ul>
     </div>
 </nav>
