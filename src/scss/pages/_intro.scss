@@ -1,0 +1,116 @@
+
+
+
+
+.intro-block {
+    position: relative;
+    .composition-box {
+        @include centered-block;
+        .animated-pin {
+            position: absolute;
+        }
+        .sun {
+            height: 50px;
+            top: 115px;
+            left: 320px;
+            animation: infinite-spinning 20s infinite linear;
+        }
+        .cloud1 {
+            width: 80px;
+            top: -40px;
+            left: 20px;
+            animation: rl-cloud1 50s infinite ease-in-out;
+        }
+
+        .cloud2 {
+            width: 70px;
+            top: 0px;
+            right: 10px;
+            animation: rl-cloud2 60s infinite ease-in-out;
+        }
+        .cloud3 {
+            width: 65px;
+            top: 120px;
+            left: 80px;
+            animation: rl-cloud3 70s infinite ease-in-out;
+        }
+    }
+    .brand-box {
+        position: relative;
+        margin-bottom: -10px;
+        width: 600px;
+        .big-logo {
+            width: 350px;
+            display: block;
+            margin: 0 auto;
+        }
+
+    }
+    .info-box {
+        background-color: $clouds;
+        position: relative;
+        font-family: 'Roboto', Helvetica, serif;
+        padding: 15px 10px;
+        width: 100%;
+        @include border-radius(5px);
+        li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        li span {
+            display: block;
+        }
+        .pin-head, .material-icons {
+            line-height: 17px;
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        .pin-desc {
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 15px;
+        }
+        .row {
+            margin: 0;
+        }
+
+    }
+
+}
+
+
+// ANIMATIONS
+
+@keyframes infinite-spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+@keyframes rl-cloud1 {
+    0% { left: 20px; }
+    50% { left: 100px; }
+    100% { left: 20px; }
+}
+
+@keyframes rl-cloud2 {
+    0% { right: 10px; }
+    50% { right: 100px; }
+    100% { right: 10px; }
+}
+
+@keyframes rl-cloud3 {
+    0% { left: 80px; }
+    50% { left: 120px; }
+    100% { left: 80px; }
+}
+
+

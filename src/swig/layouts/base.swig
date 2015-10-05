@@ -63,7 +63,7 @@
         {% else %}
             <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
             {#<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>#}
-            <script src="js/scripts.min.js"></script>
+            {#<script src="js/scripts.min.js"></script>#}
         {% endif %}
 
         {% block scripts %}{% endblock %}
