@@ -34,6 +34,7 @@
 
     {#<link rel="stylesheet" href="vendor/mdl/material.min.css">#}
     <link rel="stylesheet" href="vendor/materialize/css/materialize.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/app.css">
 
