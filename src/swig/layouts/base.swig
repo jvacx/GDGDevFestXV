@@ -57,9 +57,9 @@
 
         {% if DEBUG %}
             <script src="vendor/jquery.min.js"></script>
-
             {#<script src="vendor/mdl/material.min.js"></script>#}
             <script src="vendor/materialize/js/materialize.js"></script>
+            <script src="js/notary.js"></script>
             <script src="js/app.js"></script>
         {% else %}
             <script src="https://code.jquery.com/jquery-1.11.3.js"></script>

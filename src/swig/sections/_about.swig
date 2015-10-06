@@ -16,7 +16,8 @@
             <div class="col l4">
                 <span class="topic-icon"><i class="material-icons medium">dashboard</i></span>
                 <h5 class="title">Feria de Proyectos</h5>
-                <p>El la feria de proyectos podrás observar como se mueve la tecnología en nuestra ciudad. y si quieres formar parte. <a href="">Registrate a la Feria</a></p>
+                <p>El la feria de proyectos podrás observar como se mueve la tecnología en nuestra ciudad. y si quieres formar parte.
+                 <a href="https://goo.gl/Y4oXFn"><strong>Registrate a la Feria</strong></a></p>
             </div>
         </div>
     </div>
