@@ -1,13 +1,17 @@
+body {
+    font-family: 'Roboto', Helvetica, serif;
+    font-weight: 400;
+}
 .bg-teal {
-    background-color: $teal;
+    background-color: $teal !important;
 }
 
 .bg-cyan {
-    background-color: $cyan;
+    background-color: $cyan !important;
 }
 .bg-indigo {
-    background-color: $indigo;
+    background-color: $indigo !important;
 }
 .bg-blue {
-    background-color: $blue;
+    background-color: $blue !important;
 }

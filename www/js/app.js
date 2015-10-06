@@ -12,4 +12,15 @@ $(document).on("ready", function(){
     $intro.css({
         "height": valH
     });
+
+    var $menu = $("[data-card-menu]");
+    var $back = $("[data-card-back]");
+
+    $menu.click(function(){
+        $(".card, body").toggleClass("show-menu");
+    });
+
+    $back.click(function(){
+        $(".card, body").toggleClass("show-menu");
+    });
 });
