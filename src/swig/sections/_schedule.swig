@@ -19,10 +19,10 @@
                           <div class="item-info-time">
                             <i class="material-icons md-18">schedule</i> <span>8:00 - 8:45</span>
                             <i class="material-icons md-18">perm_identity</i> <span>Nombre Apellido</span>
-                          </div>  
+                          </div>
                           <h5>Titulo de la Charla</h5>
                         </div>
-                      </div>    
+                      </div>
                     </div>
                     <div class="schedule-item">
                       <div class="schedule-item-img">
@@ -33,10 +33,10 @@
                           <div class="item-info-time">
                             <i class="material-icons md-24">schedule</i> <span>8:00 - 8:45</span>
                             <i class="material-icons md-24">perm_identity</i> <span>Nombre Apellido</span>
-                          </div>  
+                          </div>
                           <h5>Titulo de la Charla</h5>
                         </div>
-                      </div>    
+                      </div>
                     </div>
                     <div class="schedule-item">
                       <div class="schedule-item-img">
@@ -46,10 +46,10 @@
                         <div class="item-info-inner">
                           <div class="item-info-time">
                             <i class="material-icons md-24">schedule</i> <span>8:00 - 8:45</span>
-                          </div>  
+                          </div>
                           <h5>Refrigerio</h5>
                         </div>
-                      </div>    
+                      </div>
                     </div>
                     <div class="schedule-item">
                       <div class="schedule-item-img">
@@ -60,16 +60,16 @@
                           <div class="item-info-time">
                             <i class="material-icons md-24">schedule</i> <span>8:00 - 8:45</span>
                             <i class="material-icons md-24">perm_identity</i> <span>Nombre Apellido</span>
-                          </div>  
+                          </div>
                           <h5>Titulo de la Charla</h5>
                         </div>
-                      </div>    
+                      </div>
                     </div>
                 </div>
                 <div id="sala2" class="col s12 tabs-panel-wrapper">Sala 2</div>
                 <div id="sala3" class="col s12 tabs-panel-wrapper">Sala 3</div>
             </div>
-            
+
         </div>
     </div>
 </div>
