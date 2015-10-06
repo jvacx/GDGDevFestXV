@@ -29,6 +29,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
     <link rel="manifest" href="ico/manifest.json">
 
+    
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 
@@ -36,7 +37,6 @@
     <link rel="stylesheet" href="vendor/materialize/css/materialize.css">
 
     <link rel="stylesheet" href="css/app.css">
-
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
