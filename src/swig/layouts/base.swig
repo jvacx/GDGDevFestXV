@@ -29,13 +29,14 @@
     <link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
     <link rel="manifest" href="ico/manifest.json">
 
-    
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 
     {#<link rel="stylesheet" href="vendor/mdl/material.min.css">#}
     <link rel="stylesheet" href="vendor/materialize/css/materialize.css">
     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/material-preloader/preloader.min.css">
 
     <link rel="stylesheet" href="css/app.css">
     <!--[if lt IE 9]>
@@ -59,6 +60,8 @@
             <script src="vendor/jquery.min.js"></script>
             {#<script src="vendor/mdl/material.min.js"></script>#}
             <script src="vendor/materialize/js/materialize.js"></script>
+            <script src="vendor/verify.notify.min.js"></script>
+            <script src="vendor/material-preloader/preloader.min.js"></script>
             <script src="js/notary.js"></script>
             <script src="js/app.js"></script>
         {% else %}

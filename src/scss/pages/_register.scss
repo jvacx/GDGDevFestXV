@@ -20,3 +20,17 @@
         margin-bottom: 0;
     }
 }
+
+.notifyjs-bootstrap-error {
+    color: white !important;
+    text-shadow: none !important;
+    background-color: lighten($googleplus, 10%) !important;
+    border-color: lighten($googleplus, 3%) !important;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA60lEQVQ4T52TaxHCMBCEdx3gAKoAUACOAAVYaBUBDloFUAc4OGZLwoSQS2fIv+Tuvtzeg8iOma0AHADsAWyCuQdwBdCRfKQhTC9m1obgnJveW5Kn+PABmJl+WWeRY7gvs/ee5FZvE8D5eSQpObIr7RwiOUcGzfdCzjeSqoMA0r8r+DQCeLpTQEmeeJ0AnhEko0RzqtoL4BkVo0ItAFy8tswB1C4BzjWAKwHAMwQKUjpDrYi1YYq2qYjqdamNcmqCp2uvDdIc4D1IMZdaOwtaBpLTov2zTNPPP8uUZKKayEFjHJdrCOusTfxa5xd2zGf20qSgLgAAAABJRU5ErkJggg==) !important;
+    background-position: 5px 5px !important;
+    background-size: 13px !important;
+    font-family: "Roboto", Helvetica, serif;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    padding: 5px 8px 5px 24px !important;
+}

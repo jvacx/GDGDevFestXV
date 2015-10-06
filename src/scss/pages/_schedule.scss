@@ -1,17 +1,18 @@
 .schedule-block{
 	padding: 50px 0;
 	background-color: $white;
-	.main-title {
-    font-family: "Roboto";
-    font-weight: 300;
-    text-align: center;
-    font-size: 33px;
-    margin-bottom:1.2em; 
+
+    .main-title {
+        font-family: "Roboto";
+        font-weight: 300;
+        text-align: center;
+        font-size: 33px;
+        margin-bottom:1.2em;
 	}
-} 
+}
 .tabs-panel-wrapper{
 	padding-top: 40px !important;
-}	
+}
 .schedule-item{
 	overflow: hidden;
 
@@ -29,8 +30,8 @@
     text-align:center;
     border-radius: 50%;
     padding: 5px;
-    background-color:$white; 
-    border: 2px solid $light_gray; 
+    background-color:$white;
+    border: 2px solid $light_gray;
 	}
 	.schedule-item-info{
 		padding: 0 0 0 70px;
@@ -55,7 +56,7 @@
 			font-size: 18px;
 			display: inline-block;
 			margin-right: 35px;
-			margin-left:5px; 
+			margin-left:5px;
 			position: relative;
 			top: -6px;
 		}

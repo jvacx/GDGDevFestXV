@@ -1,7 +1,7 @@
 <div class="speakers-block">
     <div class="container">
         <div class="row" data-container="speakers">
-
+            <h4 class="main-title">Expositores</h4>
             <div class="col l3" data-template="speaker">
 
                 <div class="speaker-card card">
@@ -12,9 +12,9 @@
                         </button>
 
                         <div class="card-face-summary">
-                            <h5 class="card-face__name" data-text="full_name">Victor Aguilar</h5>
-                            <span class="card-face__title" data-text="organization">Fullstack Developer</span>
-                            <p data-text="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae vitae doloribus aperiam quo, adipisci accusamus error suscipit. Sunt illum ratione, eligendi soluta, aut, architecto perferendis cum, quis illo itaque ad.</p>
+                            <h5 class="card-face__name" data-value="full_name"></h5>
+                            <span class="card-face__title" data-value="position"></span>
+                            <p data-value="bio"></p>
                         </div>
 
                     </div>
@@ -26,11 +26,11 @@
                         </button>
 
                         <div class="card-face__avatar">
-                            <img src="img/avatar.jpg" width="110" height="110" draggable="false" data-image="photo"/>
+                            <img src="" width="110" height="110" draggable="false" data-image="photo"/>
                         </div>
 
-                        <h2 class="card-face__name" data-text="full_name">Victor Aguilar C.</h2>
-                        <span class="card-face__title" data-text="organization">Fullstack Developer</span>
+                        <h2 class="card-face__name" data-value="full_name"></h2>
+                        <span class="card-face__title" data-value="position"></span>
                         <ul class="card-face-footer">
                             <li>
                                 <a href="" target="_blank" class="card-face__social google-plus" data-link="google_plus">
