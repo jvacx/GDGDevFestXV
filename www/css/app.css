@@ -246,8 +246,9 @@ body .clearfix {
 /* line 1, ../../src/scss/pages/_schedule.scss */
 .schedule-block {
   padding: 50px 0;
+  background-color: #ffffff;
 }
-/* line 3, ../../src/scss/pages/_schedule.scss */
+/* line 4, ../../src/scss/pages/_schedule.scss */
 .schedule-block .main-title {
   font-family: "Roboto";
   font-weight: 300;
@@ -256,16 +257,16 @@ body .clearfix {
   margin-bottom: 1.2em;
 }
 
-/* line 11, ../../src/scss/pages/_schedule.scss */
+/* line 12, ../../src/scss/pages/_schedule.scss */
 .tabs-panel-wrapper {
   padding-top: 40px !important;
 }
 
-/* line 14, ../../src/scss/pages/_schedule.scss */
+/* line 15, ../../src/scss/pages/_schedule.scss */
 .schedule-item {
   overflow: hidden;
 }
-/* line 17, ../../src/scss/pages/_schedule.scss */
+/* line 18, ../../src/scss/pages/_schedule.scss */
 .schedule-item .schedule-item-img {
   width: 120px;
   float: left;
@@ -274,7 +275,7 @@ body .clearfix {
   z-index: 9;
   text-align: center;
 }
-/* line 25, ../../src/scss/pages/_schedule.scss */
+/* line 26, ../../src/scss/pages/_schedule.scss */
 .schedule-item .avatar-image {
   width: 120px;
   height: 120px;
@@ -284,30 +285,30 @@ body .clearfix {
   background-color: #ffffff;
   border: 2px solid #cccccc;
 }
-/* line 34, ../../src/scss/pages/_schedule.scss */
+/* line 35, ../../src/scss/pages/_schedule.scss */
 .schedule-item .schedule-item-info {
   padding: 0 0 0 70px;
   box-sizing: border-box;
 }
-/* line 38, ../../src/scss/pages/_schedule.scss */
+/* line 39, ../../src/scss/pages/_schedule.scss */
 .schedule-item .item-info-inner {
   border-left: 2px solid #cccccc;
   padding: 20px 0 60px 100px;
   z-index: 10;
   box-sizing: border-box;
 }
-/* line 43, ../../src/scss/pages/_schedule.scss */
+/* line 44, ../../src/scss/pages/_schedule.scss */
 .schedule-item .item-info-inner h5 {
   font-size: 1.44em;
   margin-top: 0.2rem;
 }
-/* line 48, ../../src/scss/pages/_schedule.scss */
+/* line 49, ../../src/scss/pages/_schedule.scss */
 .schedule-item .item-info-time {
   font-weight: 300;
   vertical-align: middle;
   color: #2196F3;
 }
-/* line 52, ../../src/scss/pages/_schedule.scss */
+/* line 53, ../../src/scss/pages/_schedule.scss */
 .schedule-item .item-info-time span {
   font-family: inherit;
   font-size: 18px;
@@ -317,7 +318,7 @@ body .clearfix {
   position: relative;
   top: -6px;
 }
-/* line 62, ../../src/scss/pages/_schedule.scss */
+/* line 63, ../../src/scss/pages/_schedule.scss */
 .schedule-item .schedule-break {
   height: 66px;
   width: 66px;
