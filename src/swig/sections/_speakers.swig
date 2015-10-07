@@ -1,4 +1,4 @@
-<div class="speakers-block">
+<div class="speakers-block" id="speakers-block">
     <div class="container">
         <div class="row" data-container="speakers">
             <h4 class="main-title">Expositores</h4>

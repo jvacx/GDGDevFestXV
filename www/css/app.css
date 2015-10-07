@@ -300,8 +300,9 @@ body {
 .schedule-block {
   padding: 50px 0;
   background-color: #ffffff;
+  font-family: "Roboto", Helvetica, serif;
 }
-/* line 5, ../../src/scss/pages/_schedule.scss */
+/* line 7, ../../src/scss/pages/_schedule.scss */
 .schedule-block .main-title {
   font-family: "Roboto";
   font-weight: 300;
@@ -309,17 +310,25 @@ body {
   font-size: 33px;
   margin-bottom: 1.2em;
 }
+/* line 15, ../../src/scss/pages/_schedule.scss */
+.schedule-block .tabs .tab a {
+  color: #009688;
+}
+/* line 18, ../../src/scss/pages/_schedule.scss */
+.schedule-block .tabs .indicator {
+  background-color: #009688;
+}
 
-/* line 13, ../../src/scss/pages/_schedule.scss */
+/* line 22, ../../src/scss/pages/_schedule.scss */
 .tabs-panel-wrapper {
   padding-top: 40px !important;
 }
 
-/* line 16, ../../src/scss/pages/_schedule.scss */
+/* line 25, ../../src/scss/pages/_schedule.scss */
 .schedule-item {
   overflow: hidden;
 }
-/* line 19, ../../src/scss/pages/_schedule.scss */
+/* line 28, ../../src/scss/pages/_schedule.scss */
 .schedule-item .schedule-item-img {
   width: 120px;
   float: left;
@@ -328,50 +337,55 @@ body {
   z-index: 9;
   text-align: center;
 }
-/* line 27, ../../src/scss/pages/_schedule.scss */
+/* line 36, ../../src/scss/pages/_schedule.scss */
 .schedule-item .avatar-image {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   text-align: center;
   border-radius: 50%;
   padding: 5px;
   background-color: #ffffff;
   border: 2px solid #cccccc;
 }
-/* line 36, ../../src/scss/pages/_schedule.scss */
+/* line 45, ../../src/scss/pages/_schedule.scss */
 .schedule-item .schedule-item-info {
   padding: 0 0 0 70px;
   box-sizing: border-box;
 }
-/* line 40, ../../src/scss/pages/_schedule.scss */
+/* line 49, ../../src/scss/pages/_schedule.scss */
 .schedule-item .item-info-inner {
   border-left: 2px solid #cccccc;
-  padding: 20px 0 60px 100px;
+  padding: 15px 0 40px 50px;
   z-index: 10;
   box-sizing: border-box;
 }
-/* line 45, ../../src/scss/pages/_schedule.scss */
+/* line 55, ../../src/scss/pages/_schedule.scss */
 .schedule-item .item-info-inner h5 {
-  font-size: 1.44em;
-  margin-top: 0.2rem;
-}
-/* line 50, ../../src/scss/pages/_schedule.scss */
-.schedule-item .item-info-time {
+  font-size: 22px;
+  margin-top: 4px;
   font-weight: 300;
-  vertical-align: middle;
-  color: #2196F3;
 }
-/* line 54, ../../src/scss/pages/_schedule.scss */
+/* line 62, ../../src/scss/pages/_schedule.scss */
+.schedule-item .item-info-time {
+  vertical-align: middle;
+  color: #00635a;
+}
+/* line 66, ../../src/scss/pages/_schedule.scss */
 .schedule-item .item-info-time span {
   font-family: inherit;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 600;
   display: inline-block;
   margin-right: 35px;
   margin-left: 5px;
   position: relative;
-  top: -6px;
 }
-/* line 64, ../../src/scss/pages/_schedule.scss */
+/* line 76, ../../src/scss/pages/_schedule.scss */
+.schedule-item .item-info-time .fa {
+  font-size: 1.1em;
+  color: #949da4;
+}
+/* line 81, ../../src/scss/pages/_schedule.scss */
 .schedule-item .schedule-break {
   height: 66px;
   width: 66px;
@@ -379,7 +393,7 @@ body {
   font-size: 30px;
   text-align: center;
   padding-top: 18px;
-  background: #2196F3;
+  background: #00635a;
   border-radius: 50%;
   display: inline-block;
   margin-top: 16px;

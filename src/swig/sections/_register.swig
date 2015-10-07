@@ -1,6 +1,5 @@
 
-
-<div class="register-block">
+<div class="register-block" id="register-block">
     <div class="container">
         <div class="row">
             <div class="col s12 m8 l12">
@@ -11,7 +10,7 @@
                             <div class="col s8 l8" action=".">
                                 <div class="row">
                                     <div class="input-field col s4">
-                                        <input id="first_name" type="text" class="validate" data-validate="required" data-register="name">
+                                        <input id="first_name" type="text" class="validate" data-validate="required" data-register="first_name">
                                         <label for="first_name">Nombres</label>
                                     </div>
                                     <div class="input-field col s5">

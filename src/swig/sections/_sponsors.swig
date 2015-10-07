@@ -1,4 +1,4 @@
-<div class="sponsors-block">
+<div class="sponsors-block" id="sponsors-block">
     <div class="container">
         <div class="row" data-container="sponsors">
             <h4 class="main-title">Auspiciadores</h4>

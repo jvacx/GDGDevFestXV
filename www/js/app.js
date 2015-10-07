@@ -74,6 +74,11 @@ $(document).on("ready", function(){
                     },
                     error: function( jqXHR, textStatus, errorThrown){
                         Materialize.toast('Hubo un error en el registro', 2000);
+
+                        if(!!jqXHR.responseJSON.email){
+                            Materialize.toast('Su correo ya fué regitrado.', 2000);
+                            $("#email").get(0).focus();
+                        }
                     },
                     beforeSend: function( jqXHR, settings){
                         preloader.on();
@@ -90,9 +95,11 @@ $(document).on("ready", function(){
 
     // Populate SPONSORS
     $.get( SPONSORS_ENDPOINT, function( data ) {
-
         Notary.populate("sponsor", data, "sponsors");
     });
+
+    // Apply navigation
+    $('#navPage').singlePageNav();
 
 
 

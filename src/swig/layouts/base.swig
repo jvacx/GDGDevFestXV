@@ -62,6 +62,7 @@
             <script src="vendor/materialize/js/materialize.js"></script>
             <script src="vendor/verify.notify.min.js"></script>
             <script src="vendor/material-preloader/preloader.min.js"></script>
+            <script src="vendor/singlenav.js"></script>
             <script src="js/notary.js"></script>
             <script src="js/app.js"></script>
         {% else %}

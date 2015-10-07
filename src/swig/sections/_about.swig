@@ -1,4 +1,4 @@
-<div class="about-block">
+<div class="about-block" id="about-block">
     <div class="container">
         <div class="row">
             <h4 class="main-title">Actividades en el Evento</h4>

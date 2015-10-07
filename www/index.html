@@ -57,15 +57,17 @@
         <a href="#" class="brand-logo">
             <img src="img/logo.png" class="logo">
         </a>
-        <ul class="nav-menu right hide-on-med-and-down">
-            <li><a href="#">Actividades</a></li>
-            <li><a href="#">Expositores</a></li>
-            <li><a href="#">Agenda</a></li>
-            <li><a href="#">Auspiciadores</a></li>
-            <li><a href="#">Registrarse</a></li>
+        <ul class="nav-menu right hide-on-med-and-down" id="navPage">
+            <li><a href="#about-block" >Actividades</a></li>
+            <li><a href="#speakers-block" >Expositores</a></li>
+            <li><a href="#schedule-block" >Agenda</a></li>
+            <li><a href="#sponsors-block" >Auspiciadores</a></li>
+            <li><a href="#register-block" >Registrarse</a></li>
         </ul>
     </div>
 </nav>
+
+
             <div class="intro-block">
     <div class="container">
         <div class="row">
@@ -102,7 +104,7 @@
     </div>
 </div>
 
-            <div class="about-block">
+            <div class="about-block" id="about-block">
     <div class="container">
         <div class="row">
             <h4 class="main-title">Actividades en el Evento</h4>
@@ -127,8 +129,7 @@
     </div>
 </div>
             
-
-<div class="register-block">
+<div class="register-block" id="register-block">
     <div class="container">
         <div class="row">
             <div class="col s12 m8 l12">
@@ -139,7 +140,7 @@
                             <div class="col s8 l8" action=".">
                                 <div class="row">
                                     <div class="input-field col s4">
-                                        <input id="first_name" type="text" class="validate" data-validate="required" data-register="name">
+                                        <input id="first_name" type="text" class="validate" data-validate="required" data-register="first_name">
                                         <label for="first_name">Nombres</label>
                                     </div>
                                     <div class="input-field col s5">
@@ -299,7 +300,7 @@
     </div>
 
             
-            <div class="speakers-block">
+            <div class="speakers-block" id="speakers-block">
     <div class="container">
         <div class="row" data-container="speakers">
             <h4 class="main-title">Expositores</h4>
@@ -360,83 +361,88 @@
         </div>
     </div>
 </div>
-            <div class="schedule-block">
+            <div class="schedule-block" id="schedule-block">
     <div class="container">
         <div class="row">
             <h4 class="main-title">Agenda</h4>
-                <div class="col s12">
-                  <ul class="tabs">
-                    <li class="tab col s3"><a class="active" href="#sala1">Sala 1</a></li>
-                    <li class="tab col s3"><a href="#sala2">Sala 2</a></li>
-                    <li class="tab col s3"><a href="#sala3">Sala 3</a></li>
-                  </ul>
-                </div>
-                <div id="sala1" class="col s12 tabs-panel-wrapper">
-                    <div class="schedule-item">
-                      <div class="schedule-item-img">
-                        <img class="avatar-image" src="/img/avatar_default.png" alt="[nombre expositor]" />
-                      </div>
-                      <div class="schedule-item-info">
-                        <div class="item-info-inner">
-                          <div class="item-info-time">
-                            <i class="material-icons md-18">schedule</i> <span>8:00 - 8:45</span>
-                            <i class="material-icons md-18">perm_identity</i> <span>Nombre Apellido</span>
-                          </div>
-                          <h5>Titulo de la Charla</h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="schedule-item">
-                      <div class="schedule-item-img">
-                        <img class="avatar-image" src="/img/avatar_default.png" alt="[nombre expositor]" />
-                      </div>
-                      <div class="schedule-item-info">
-                        <div class="item-info-inner">
-                          <div class="item-info-time">
-                            <i class="material-icons md-24">schedule</i> <span>8:00 - 8:45</span>
-                            <i class="material-icons md-24">perm_identity</i> <span>Nombre Apellido</span>
-                          </div>
-                          <h5>Titulo de la Charla</h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="schedule-item">
-                      <div class="schedule-item-img">
-                        <div class="schedule-break"><i class="material-icons md-36">local_cafe</i></div>
-                      </div>
-                      <div class="schedule-item-info">
-                        <div class="item-info-inner">
-                          <div class="item-info-time">
-                            <i class="material-icons md-24">schedule</i> <span>8:00 - 8:45</span>
-                          </div>
-                          <h5>Refrigerio</h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="schedule-item">
-                      <div class="schedule-item-img">
-                        <img class="avatar-image" src="/img/avatar_default.png" alt="[nombre expositor]" />
-                      </div>
-                      <div class="schedule-item-info">
-                        <div class="item-info-inner">
-                          <div class="item-info-time">
-                            <i class="material-icons md-24">schedule</i> <span>8:00 - 8:45</span>
-                            <i class="material-icons md-24">perm_identity</i> <span>Nombre Apellido</span>
-                          </div>
-                          <h5>Titulo de la Charla</h5>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                <div id="sala2" class="col s12 tabs-panel-wrapper">Sala 2</div>
-                <div id="sala3" class="col s12 tabs-panel-wrapper">Sala 3</div>
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s3">
+                        <a href="#sala1"><strong>SALA I </strong><i>(Amalia Gallardo)</i></a>
+                    </li>
+                    <li class="tab col s3">
+                        <a href="#sala2"><strong>SALA II </strong><i>(Oscar Soria Gamarra)</i></a>
+                    </li>
+                    <li class="tab col s3">
+                        <a href="#sala3"><strong>AULA </strong>Luis Bazoberry</a>
+                    </li>
+                </ul>
             </div>
-
+            <div id="sala1" class="col s12 tabs-panel-wrapper">
+                <div class="schedule-item">
+                    <div class="schedule-item-img">
+                        <img class="avatar-image" src="/img/avatar_default.png" alt="[nombre expositor]" />
+                    </div>
+                    <div class="schedule-item-info">
+                        <div class="item-info-inner">
+                            <div class="item-info-time">
+                                <i class="fa fa-clock-o"></i> <span>8:00 - 8:45</span>
+                                <i class="fa fa-user"></i> <span>Nombre Apellido</span>
+                            </div>
+                            <h5>Titulo de la Charla</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-item-img">
+                        <img class="avatar-image" src="/img/avatar_default.png" alt="[nombre expositor]" />
+                    </div>
+                    <div class="schedule-item-info">
+                        <div class="item-info-inner">
+                            <div class="item-info-time">
+                                <i class="fa fa-clock-o"></i> <span>8:00 - 8:45</span>
+                                <i class="fa fa-user"></i> <span>Nombre Apellido</span>
+                            </div>
+                            <h5>Titulo de la Charla</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-item-img">
+                        <div class="schedule-break"><i class="material-icons md-36">local_cafe</i></div>
+                    </div>
+                    <div class="schedule-item-info">
+                        <div class="item-info-inner">
+                            <div class="item-info-time">
+                                <i class="fa fa-clock-o"></i> <span>8:00 - 8:45</span>
+                            </div>
+                            <h5>Refrigerio</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <div class="schedule-item-img">
+                        <img class="avatar-image" src="/img/avatar_default.png" alt="[nombre expositor]" />
+                    </div>
+                    <div class="schedule-item-info">
+                        <div class="item-info-inner">
+                            <div class="item-info-time">
+                                <i class="fa fa-clock-o"></i> <span>8:00 - 8:45</span>
+                                <i class="fa fa-user"></i> <span>Nombre Apellido</span>
+                            </div>
+                            <h5>Titulo de la Charla</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sala2" class="col s12 tabs-panel-wrapper">Sala 2</div>
+            <div id="sala3" class="col s12 tabs-panel-wrapper">Sala 3</div>
         </div>
     </div>
 </div>
+</div>
 
-            <div class="sponsors-block">
+            <div class="sponsors-block" id="sponsors-block">
     <div class="container">
         <div class="row" data-container="sponsors">
             <h4 class="main-title">Auspiciadores</h4>
@@ -484,6 +490,7 @@
             <script src="vendor/materialize/js/materialize.js"></script>
             <script src="vendor/verify.notify.min.js"></script>
             <script src="vendor/material-preloader/preloader.min.js"></script>
+            <script src="vendor/singlenav.js"></script>
             <script src="js/notary.js"></script>
             <script src="js/app.js"></script>
         
