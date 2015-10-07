@@ -2,8 +2,8 @@ var $ = jQuery;
 
 var SERVER = "http://api.devfest.xyz";
 var SPEAKERS_ENDPOINT = SERVER + "/api/devfest/speakers/";
-var SPEECHES_ENDPOINT = SERVER + "/api/devfest/sponsors/";
-var SPONSORS_ENDPOINT = SERVER + "/api/devfest/speeches/";
+var SPEECHES_ENDPOINT = SERVER + "/api/devfest/speeches/";
+var SPONSORS_ENDPOINT = SERVER + "/api/devfest/sponsors/";
 var REGISTER_ENDPOINT = SERVER + "/api/devfest/attends/";
 
 
@@ -32,21 +32,6 @@ $(document).on("ready", function(){
         "height": valH
     });
 
-    var speakers =[
-        {
-            "id": 1,
-            "full_name": "Victor Aguilar",
-            "position": "CEO in Xiberty",
-            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\r\ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\r\nquis nostrud exe",
-            "banner": null,
-            "photo": "http://api.devfest.xyz/media/photos/2015/10/06/avatar.jpg",
-            "info": "http://api.devfest.xyz/media/cvs/2015/10/06/Convenio-CINEMATECA.pdf",
-            "talk": "http://api.devfest.xyz/media/cvs/2015/10/06/Convenio-CINEMATECA.pdf",
-            "twitter": "https://twitter.com/jvacx",
-            "github": "https://github.com/jvacx",
-            "google_plus": "https://plus.google.com/"
-        }
-    ];
 
     // Populate SPEAKERS
     $.get( SPEAKERS_ENDPOINT, function( data ) {
@@ -79,9 +64,6 @@ $(document).on("ready", function(){
             if(success) {
                 var obj = Notary.makeAttende();
 
-
-                console.log(obj);
-
                 $.ajax({
                     url: REGISTER_ENDPOINT,
                     method: 'POST',
@@ -105,6 +87,12 @@ $(document).on("ready", function(){
 
     })
 
+
+    // Populate SPONSORS
+    $.get( SPONSORS_ENDPOINT, function( data ) {
+
+        Notary.populate("sponsor", data, "sponsors");
+    });
 
 
 

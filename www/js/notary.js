@@ -14,6 +14,8 @@ var Notary = Notary || {};
                 $newObj.appendTo($destiny);
 
                 // execute item callback
+                // console.log(obj);
+
                 if (!!callback)
                     callback($newObj, obj);
 
