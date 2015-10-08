@@ -47,6 +47,17 @@ $(document).on("ready", function(){
             });
         });
     });
+    
+    
+     //Poulate Schedule
+    $.get(SPEECHES_ENDPOINT, function(data){
+       Notary.populate("speech", data, "speeches", function($dom, obj){
+           console.log(obj);
+           var $sala = $dom.find("[schedule-item-info]"); 
+            
+       });
+    });
+
 
     var $btnRegister = $("#btnRegister");
     var $registerForm = $("#registerForm");
@@ -108,5 +119,6 @@ $(document).on("ready", function(){
     // data-text
     // data-link
     // data-image
-
+    
+   
 });
