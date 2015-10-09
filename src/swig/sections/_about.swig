@@ -17,7 +17,7 @@
                 <span class="topic-icon"><i class="material-icons medium">dashboard</i></span>
                 <h5 class="title">Feria de Proyectos</h5>
                 <p>El la feria de proyectos podrás observar como se mueve la tecnología en nuestra ciudad. y si quieres formar parte.
-                 <a href="https://goo.gl/Y4oXFn"><strong>Registrate a la Feria</strong></a></p>
+                 <a href="https://goo.gl/Y4oXFn" class="link"><strong>Registrate a la Feria</strong></a></p>
             </div>
         </div>
     </div>

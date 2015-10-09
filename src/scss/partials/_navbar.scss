@@ -5,6 +5,7 @@
     border-bottom: 1px solid darken($clouds, 5%);
     position: fixed;
     z-index: 100;
+
     .logo {
         height: 35px;
         margin: 15px 0px 0px 10px;
@@ -15,15 +16,15 @@
         color: $darken;
         font-weight: 800;
         text-transform: uppercase;
-        font-size: 14px;
+        font-size: 15px;
 
         &.active {
-            background-color: $teal;
+            background-color: $blue;
             color: white;
             @include transition(.25s);
         }
         &.active:hover {
-            background-color: darken($teal, 5%);
+            background-color: darken($blue, 5%);
         }
     }
 }

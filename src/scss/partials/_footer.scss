@@ -1,7 +1,6 @@
 .page-footer {
+    background-color: $gray-800 !important;
     .social-links li {
-
-
         display: inline-block;
         font-size: 20px;
         line-height: 40px;
@@ -14,9 +13,9 @@
         margin-left: 4px;
 
         &.facebook{
-            background-color: darken($facebook, 10%);
+            background-color: $facebook;
             &:hover {
-                background-color: darken($facebook, 20%);
+                background-color: darken($facebook, 5%);
             }
         }
         &.twitter{

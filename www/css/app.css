@@ -72,34 +72,38 @@ body .clearfix {
   position: fixed;
   z-index: 100;
 }
-/* line 8, ../../src/scss/partials/_navbar.scss */
+/* line 9, ../../src/scss/partials/_navbar.scss */
 .navbar .logo {
   height: 35px;
   margin: 15px 0px 0px 10px;
 }
-/* line 13, ../../src/scss/partials/_navbar.scss */
+/* line 14, ../../src/scss/partials/_navbar.scss */
 .navbar .nav-menu li a {
   font-family: 'Roboto', Helvetica;
   color: #2e2e2e;
   font-weight: 800;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 15px;
 }
-/* line 20, ../../src/scss/partials/_navbar.scss */
+/* line 21, ../../src/scss/partials/_navbar.scss */
 .navbar .nav-menu li a.active {
-  background-color: #009688;
+  background-color: #2196F3;
   color: white;
   -moz-transition: 0.25s;
   -o-transition: 0.25s;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
-/* line 25, ../../src/scss/partials/_navbar.scss */
+/* line 26, ../../src/scss/partials/_navbar.scss */
 .navbar .nav-menu li a.active:hover {
-  background-color: #007d71;
+  background-color: #0d8aee;
 }
 
-/* line 2, ../../src/scss/partials/_footer.scss */
+/* line 1, ../../src/scss/partials/_footer.scss */
+.page-footer {
+  background-color: #37474F !important;
+}
+/* line 3, ../../src/scss/partials/_footer.scss */
 .page-footer .social-links li {
   display: inline-block;
   font-size: 20px;
@@ -116,27 +120,27 @@ body .clearfix {
   transition: 0.25s;
   margin-left: 4px;
 }
-/* line 16, ../../src/scss/partials/_footer.scss */
+/* line 15, ../../src/scss/partials/_footer.scss */
 .page-footer .social-links li.facebook {
-  background-color: #2d4373;
+  background-color: #3b5998;
 }
-/* line 18, ../../src/scss/partials/_footer.scss */
+/* line 17, ../../src/scss/partials/_footer.scss */
 .page-footer .social-links li.facebook:hover {
-  background-color: #1e2e4f;
+  background-color: #344e86;
 }
-/* line 22, ../../src/scss/partials/_footer.scss */
+/* line 21, ../../src/scss/partials/_footer.scss */
 .page-footer .social-links li.twitter {
   background-color: #00aced;
 }
-/* line 24, ../../src/scss/partials/_footer.scss */
+/* line 23, ../../src/scss/partials/_footer.scss */
 .page-footer .social-links li.twitter:hover {
   background-color: #0087ba;
 }
-/* line 28, ../../src/scss/partials/_footer.scss */
+/* line 27, ../../src/scss/partials/_footer.scss */
 .page-footer .social-links li.google-plus {
   background-color: #dd4b39;
 }
-/* line 30, ../../src/scss/partials/_footer.scss */
+/* line 29, ../../src/scss/partials/_footer.scss */
 .page-footer .social-links li.google-plus:hover {
   background-color: #c23321;
 }
@@ -754,8 +758,8 @@ body {
 }
 /* line 1, ../../src/scss/pages/_about.scss */
 .about-block {
-  background-color: #E0F2F1;
-  color: #546E7A;
+  background-color: #2196F3;
+  color: white;
   padding: 50px 0;
 }
 /* line 5, ../../src/scss/pages/_about.scss */
@@ -781,6 +785,24 @@ body {
 /* line 22, ../../src/scss/pages/_about.scss */
 .about-block p {
   text-align: center;
+}
+/* line 25, ../../src/scss/pages/_about.scss */
+.about-block .link {
+  color: #fff;
+  font-weight: bold;
+  background-color: #0a6ebd;
+  padding: 3px 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+/* line 33, ../../src/scss/pages/_about.scss */
+.about-block .link:hover {
+  background-color: #08528d;
 }
 
 /* line 1, ../../src/scss/pages/_register.scss */
