@@ -1,5 +1,6 @@
 var $ = jQuery;
 
+// var SERVER = "http://192.168.33.100:5000";
 var SERVER = "http://api.devfest.xyz";
 var SPEAKERS_ENDPOINT = SERVER + "/api/devfest/speakers/";
 var SPEECHES_ENDPOINT = SERVER + "/api/devfest/speeches/";
@@ -51,14 +52,14 @@ $(document).on("ready", function(){
             });
         });
     });
-    
-    
+
+
      //Poulate Schedule
     $.get(SPEECHES_ENDPOINT, function(data){
        Notary.populate("speech", data, "speeches", function($dom, obj){
            console.log(obj);
-           var $sala = $dom.find("[schedule-item-info]"); 
-            
+           var $sala = $dom.find("[schedule-item-info]");
+
        });
     });
 
@@ -69,40 +70,43 @@ $(document).on("ready", function(){
     $btnRegister.click(function(e){
         e.preventDefault();
         e.stopPropagation();
-
         preloader.on();
 
         $registerForm.validate(function(success){
 
-            preloader.off();
+            setTimeout(function() {
+                if(success) {
+                    var obj = Notary.makeAttende();
 
-            if(success) {
-                var obj = Notary.makeAttende();
+                    $.ajax({
+                        url: REGISTER_ENDPOINT,
+                        method: 'POST',
+                        data: obj,
+                        success: function(data, textStatus, jqXHR){
+                            $registerForm.trigger("reset");
+                            Materialize.toast('Te has registrado exitosamente!', 4000);
+                        },
+                        error: function( jqXHR, textStatus, errorThrown){
+                            Materialize.toast('Hubo un error en el registro', 2000);
 
-                $.ajax({
-                    url: REGISTER_ENDPOINT,
-                    method: 'POST',
-                    data: obj,
-                    success: function(data, textStatus, jqXHR){
-                        $registerForm.trigger("reset");
-                        Materialize.toast('Te has registrado exitosamente!', 4000);
-                    },
-                    error: function( jqXHR, textStatus, errorThrown){
-                        Materialize.toast('Hubo un error en el registro', 2000);
+                            if(!!jqXHR.responseJSON.email){
+                                Materialize.toast('Su correo ya fué regitrado.', 2000);
+                                $("#email").get(0).focus();
+                            }
+                        },
+                        beforeSend: function( jqXHR, settings){
+                            preloader.on();
+                        },
+                        complete: function(jqXHR, textStatus){
+                            preloader.off();
+                        },
+                    })
+                } else {
+                    preloader.off();
+                    Materialize.toast('Formulario Invalido', 2000);
+                }
+            }, 2000);
 
-                        if(!!jqXHR.responseJSON.email){
-                            Materialize.toast('Su correo ya fué regitrado.', 2000);
-                            $("#email").get(0).focus();
-                        }
-                    },
-                    beforeSend: function( jqXHR, settings){
-                        preloader.on();
-                    },
-                    complete: function(jqXHR, textStatus){
-                        preloader.off();
-                    },
-                })
-            }
         });
 
     })
@@ -123,6 +127,6 @@ $(document).on("ready", function(){
     // data-text
     // data-link
     // data-image
-    
-   
+
+
 });
