@@ -205,8 +205,11 @@
 
                                 <span class="bank">BCP</span class="bank">
                                 <span class="account">201-50823048-3-93</span>
-
                                 <span class="owner">JUAN VICTOR AGUILAR CUSICANQUI </span>
+
+                                <span class="bank">BNB</span class="bank">
+                                <span class="account">150-1261749</span>
+                                <span class="owner">RENATO VELASQUEZ LUIS</span>
 
                             </div>
 
