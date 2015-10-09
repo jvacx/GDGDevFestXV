@@ -4,43 +4,44 @@
 
 .intro-block {
     position: relative;
+    height: 700px;
     .composition-box {
         @include centered-block;
         .animated-pin {
             position: absolute;
         }
         .sun {
-            height: 50px;
-            top: 115px;
-            left: 320px;
-            animation: infinite-spinning 20s infinite linear;
+            height: 55px;
+            top: 185px;
+            left: 445px;
+            animation: infinite-spinning 15s infinite linear;
         }
         .cloud1 {
-            width: 80px;
+            width: 90px;
             top: -40px;
             left: 20px;
-            animation: rl-cloud1 50s infinite ease-in-out;
+            animation: rl-cloud1 30s infinite ease-in-out;
         }
 
         .cloud2 {
-            width: 70px;
+            width: 80px;
             top: 0px;
             right: 10px;
-            animation: rl-cloud2 60s infinite ease-in-out;
+            animation: rl-cloud2 30s infinite ease-in-out;
         }
         .cloud3 {
-            width: 65px;
-            top: 120px;
+            width: 80px;
+            top: 160px;
             left: 80px;
-            animation: rl-cloud3 70s infinite ease-in-out;
+            animation: rl-cloud3 40s infinite ease-in-out;
         }
     }
     .brand-box {
         position: relative;
         margin-bottom: -10px;
-        width: 600px;
+        width: 800px;
         .big-logo {
-            width: 350px;
+            width: 500px;
             display: block;
             margin: 0 auto;
         }
@@ -63,14 +64,14 @@
         }
         .pin-head, .material-icons {
             line-height: 17px;
-            font-size: 17px;
-            font-weight: 500;
+            font-size: 20px;
+            font-weight: 600;
         }
 
         .pin-desc {
-            font-weight: 300;
-            font-size: 15px;
-            line-height: 15px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 18px;
         }
         .row {
             margin: 0;

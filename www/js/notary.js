@@ -13,7 +13,7 @@ var Notary = Notary || {};
                 var $newObj = self.makeObject($template, obj);
                 $newObj.appendTo($destiny);
 
-                // execute item callback
+                // EXECUTE item callback
                 // console.log(obj);
 
                 if (!!callback)

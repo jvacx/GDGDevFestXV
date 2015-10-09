@@ -12,11 +12,14 @@
             {% include "sections/_intro.swig" %}
 
             {% include "sections/_about.swig" %}
+
+            {% include "sections/_speakers.swig" %}
+
+            {# {% include "sections/_schedule.swig" %} #}
+
             {% include "sections/_register.swig" %}
 
             {% include "sections/_location.swig" %}
-            {% include "sections/_speakers.swig" %}
-            {% include "sections/_schedule.swig" %}
 
             {% include "sections/_sponsors.swig" %}
 

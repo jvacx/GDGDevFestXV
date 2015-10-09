@@ -28,20 +28,24 @@ $(document).on("ready", function(){
     });
 
     // Intro block.
-    $intro.css({
-        "height": valH
-    });
+    // $intro.css({
+    //     "height": valH
+    // });
 
 
     // Populate SPEAKERS
     $.get( SPEAKERS_ENDPOINT, function( data ) {
         Notary.populate("speaker", data, "speakers", function($dom, obj){
+
+
             var $menu = $dom.find("[data-card-menu]");
             var $back = $dom.find("[data-card-back]");
             var $card = $dom.find(".speaker-card");
+
             $menu.click(function(){
                 $card.toggleClass("show-menu");
             });
+
             $back.click(function(){
                 $card.toggleClass("show-menu");
             });

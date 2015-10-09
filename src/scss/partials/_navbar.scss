@@ -16,6 +16,15 @@
         font-weight: 800;
         text-transform: uppercase;
         font-size: 14px;
+
+        &.active {
+            background-color: $teal;
+            color: white;
+            @include transition(.25s);
+        }
+        &.active:hover {
+            background-color: darken($teal, 5%);
+        }
     }
 }
 

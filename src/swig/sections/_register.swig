@@ -65,16 +65,25 @@
 
                                 </div>
                                 <div class="row">
-                                    <div class="input-field col s6">
+                                    <div class="input-field col s4">
                                         <input id="depot" type="text" class="validate" data-validate="required" data-register="depot">
                                         <label for="depot">Número de Depósito</label>
                                     </div>
-                                    <div class="col s6">
+                                    <div class="col s4">
                                         <label>Banco donde se hizo el depósito:</label>
                                         <select class="browser-default" data-register="bank">
                                           <option value="BISA">Banco BISA</option>
                                           <option value="BNB">Banco Nacional de Bolivia</option>
                                           <option value="BCP">Banco de Crédito</option>
+                                        </select>
+                                    </div>
+                                    <div class="col s4">
+                                        <label>¿Asistiras a un Codelab?</label>
+                                        <select class="browser-default" data-register="codelab">
+                                          <option value="NO_CODELAB">No, gracias</option>
+                                          <option value="CODELAB_A">Codelab FIREBASE</option>
+                                          <option value="CODELAB_B">Codelab ANDROID</option>
+                                          <option value="CODELAB_C">Codelab SORPRESA</option>
                                         </select>
                                     </div>
                                 </div>
@@ -151,6 +160,53 @@
                                 </div>
                             </div>
                             <div class="register-banner col l4">
+                                <span class="title">Adhesión</span>
+                                <p>
+                                    La adhesión cubre:
+                                    <ul class="list">
+                                        <li>El Pase al evento.</li>
+                                        <li>Refrigerio y Almuerzo.</li>
+                                        <li>Credencial del Evento.</li>
+                                        <li>Posibilidad de registrarse a un Codelab.</li>
+                                    </ul>
+                                </p>
+                                <hr>
+                                <span class="subtitle">Estudiantes</span>
+                                <div class="row">
+                                    <span class="col l6">
+                                        <span class="amount">30 <i class="courrency">Bs.</i></span>
+                                        <span class="limit">Hasta el 30 de Octubre</span>
+                                    </span>
+                                    <span class="col l6">
+                                        <span class="amount">45 <i class="courrency">Bs.</i></span>
+                                        <span class="limit">Despues del 30 de Octubre</span>
+                                    </span>
+                                </div>
+
+                                <span class="subtitle">Profesionales</span>
+                                <div class="row">
+                                    <span class="col l6">
+                                        <span class="amount">50 <i class="courrency">Bs.</i></span>
+                                        <span class="limit">Hasta el 30 de Octubre</span>
+                                    </span>
+                                    <span class="col l6">
+                                        <span class="amount">65 <i class="courrency">Bs.</i></span>
+                                        <span class="limit">Despues del 30 de Octubre</span>
+                                    </span>
+                                </div>
+                                <hr><br>
+
+                                <p>Podrá efectivizar su adhesión en las siguientes</p>
+                                <span class="subtitle">CUENTAS BANCARIAS</span>
+
+                                <span class="bank">BISA</span class="bank">
+                                <span class="account">396357-401-0</span>
+                                <span class="owner">JUAN VICTOR AGUILAR CUSICANQUI </span>
+
+                                <span class="bank">BCP</span class="bank">
+                                <span class="account">201-50823048-3-93</span>
+
+                                <span class="owner">JUAN VICTOR AGUILAR CUSICANQUI </span>
 
                             </div>
 
@@ -165,6 +221,10 @@
                 </form>
             </div>
             <div class="col s12 m4 l4">
+
+
+
             </div>
         </div>
     </div>
+</div>

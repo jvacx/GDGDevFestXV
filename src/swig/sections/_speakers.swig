@@ -2,6 +2,7 @@
     <div class="container">
         <div class="row" data-container="speakers">
             <h4 class="main-title">Expositores</h4>
+
             <div class="col l3" data-template="speaker">
 
                 <div class="speaker-card card">
@@ -55,6 +56,8 @@
                         </div>
                     </div>
                 </div>
+
+
             </div>
         </div>
     </div>

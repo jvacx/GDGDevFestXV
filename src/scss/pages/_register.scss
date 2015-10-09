@@ -1,9 +1,14 @@
+.register-block {
+    background-color: $teal;
+    padding: 50px 0;
+}
 .register-card {
     width: 100%;
+    font-family: "Roboto", Helvetica, serif;
+    color: #000;
 
     .card-title {
         color: $darken;
-        font-family: "Roboto";
         font-weight: 300;
         font-size: 30px;
     }
@@ -14,7 +19,71 @@
         position: absolute;
         top: 0;
         right: 0;
-        background-color: $clouds;
+        background-color: $teal-50;
+        padding: 20px;
+        color: $gray-600;
+
+        .title {
+            font-weight: 300;
+            font-size: 30px;
+            display: block;
+            margin: 5px 0 15px 0;
+            text-align: center;
+        }
+
+        .subtitle {
+            color: darken($teal, 5%);
+            display: block;
+            font-size: 15px;
+            font-weight: 500;
+            margin: 10px 0 10px 0;
+            text-transform: uppercase;
+
+        }
+
+        .bank {
+            // color: lighten($darken, 30%);
+            display: block;
+            font-weight: 500;
+            font-size: 20px;
+        }
+        .account {
+            // background-color: lighten($teal, 95%);
+            display: block;
+            font-weight: 400;
+            font-size: 18px;
+            padding: 5px;
+            @include border-radius(5px);
+        }
+        .owner {
+            display: block;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+        .amount {
+            display: block;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 500;
+        }
+        .courrency {
+            font-style: normal;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+        .limit {
+            display: block;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .list li {
+            list-style-type: square;
+            margin-left: 25px;
+        }
     }
     .without-bottom-margin {
         margin-bottom: 0;
