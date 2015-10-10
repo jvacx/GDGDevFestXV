@@ -2,12 +2,12 @@
 <div class="register-block" id="register-block">
     <div class="container">
         <div class="row">
-            <div class="col s12 m8 l12">
+            <div class="col s12 m12 l12">
                 <form id="registerForm" class="register-card card">
                     <div class="card-content">
                         <span class="card-title">Registro</span>
                         <div class="row">
-                            <div class="col s8 l8" action=".">
+                            <div class="col l8 m12 s12" action=".">
                                 <div class="row">
                                     <div class="input-field col s4">
                                         <input id="first_name" type="text" class="validate" data-validate="required" data-register="first_name">
@@ -159,7 +159,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="register-banner col l4">
+                            <div class="register-banner col l4 m12 s12">
                                 <span class="title">Adhesión</span>
                                 <p>
                                     La adhesión cubre:

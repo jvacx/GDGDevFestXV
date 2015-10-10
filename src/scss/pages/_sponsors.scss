@@ -20,12 +20,13 @@
         margin: 0 auto;
         // opacity: 0.6;
 
-        @include grayscale(100%);
+        @include grayscale-100;
         @include transition(.25s);
 
     }
     .sponsor-logo:hover img {
-        @include grayscale(1%);
+        @include grayscale-1;
+
         // opacity: 1;
     }
 }

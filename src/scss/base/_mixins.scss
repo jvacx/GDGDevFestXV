@@ -104,14 +104,25 @@
           transform: $properties;
 }
 
-@mixin grayscale($value) {
-    filter: grayscale($value);
-    -webkit-filter: grayscale($value);
-    -moz-filter: grayscale($value);
-    -ms-filter: grayscale($value);
-    -o-filter: grayscale($value);
+@mixin grayscale-100 {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
     filter: url(resources.svg#desaturate);
     filter: gray;
+    filter: grayscale(1);
+}
+@mixin grayscale-1 {
+    filter: grayscale(1%);
+    -webkit-filter: grayscale(1%);
+    -moz-filter: grayscale(1%);
+    -ms-filter: grayscale(1%);
+    -o-filter: grayscale(1%);
+    filter: url(resources.svg#desaturate);
+    filter: gray;
+    filter: grayscale(0);
 }
 
 @mixin vertical-gradient($from, $to) {

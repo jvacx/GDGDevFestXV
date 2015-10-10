@@ -23,6 +23,14 @@
         padding: 20px;
         color: $gray-600;
 
+        @include into-xs {
+            position: relative;
+        }
+
+        @include into-sm {
+            position: relative;
+        }
+
         .title {
             font-weight: 300;
             font-size: 30px;

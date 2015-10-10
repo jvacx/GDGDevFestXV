@@ -1,12 +1,10 @@
 
-
-
-
 .intro-block {
     position: relative;
     height: 700px;
     .composition-box {
         @include centered-block;
+
         .animated-pin {
             position: absolute;
         }
@@ -15,12 +13,33 @@
             top: 185px;
             left: 445px;
             animation: infinite-spinning 15s infinite linear;
+
+            @include into-xs {
+                height: 38px;
+                top: 115px;
+                left: 275px;
+            }
+
+            @include into-sm {
+                height: 30px;
+                top: 55px;
+                left: 200px;
+            }
         }
         .cloud1 {
             width: 90px;
             top: -40px;
             left: 20px;
             animation: rl-cloud1 30s infinite ease-in-out;
+            @include into-xs {
+                width: 40px;
+                top: -10px;
+                left: 40px;
+            }
+
+            @include into-sm {
+
+            }
         }
 
         .cloud2 {
@@ -28,22 +47,69 @@
             top: 0px;
             right: 10px;
             animation: rl-cloud2 30s infinite ease-in-out;
+            @include into-xs {
+                width: 40px;
+                top: 0px;
+                right: 20px;
+            }
+
+            @include into-sm {
+
+            }
         }
         .cloud3 {
             width: 80px;
             top: 160px;
             left: 80px;
             animation: rl-cloud3 40s infinite ease-in-out;
+
+            @include into-xs {
+                width: 40px;
+                top: 100px;
+                left: 60px;
+            }
+
+            @include into-sm {
+
+            }
+        }
+    }
+    .data-li {
+        @include into-xs {
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        @include into-sm {
+            margin: 15px 0;
+            text-align: center;
         }
     }
     .brand-box {
         position: relative;
         margin-bottom: -10px;
         width: 800px;
+
+        @include into-xs {
+            width: 100%;
+        }
+
+        @include into-sm {
+            width: 700px;
+        }
+
         .big-logo {
             width: 500px;
             display: block;
             margin: 0 auto;
+
+            @include into-xs {
+                width: 320px;
+            }
+
+            @include into-sm {
+                width: 400px;
+            }
         }
 
     }

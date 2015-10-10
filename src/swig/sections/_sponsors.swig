@@ -3,7 +3,7 @@
         <div class="row" data-container="sponsors">
             <h4 class="main-title">Auspiciadores</h4>
 
-            <div class="col l3" data-template="sponsor">
+            <div class="col l3 m6 s12" data-template="sponsor">
                 <a href="http://hivos.org" target="_blank" class="sponsor-logo" data-link="website">
                     <img src="img/hivos.png" alt="" data-image="logo">
                 </a>

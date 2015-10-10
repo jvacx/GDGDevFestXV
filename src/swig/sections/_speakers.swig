@@ -3,7 +3,7 @@
         <div class="row" data-container="speakers">
             <h4 class="main-title">Expositores</h4>
 
-            <div class="col l3" data-template="speaker">
+            <div class="col l3 m6 s12" data-template="speaker">
 
                 <div class="speaker-card card">
                     <div class="card-face face-2">
