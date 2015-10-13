@@ -9,7 +9,7 @@
 
                         <div class="row">
                             <div class="col l8 m12 s12" action=".">
-                                <p style="font-weight:300;">Para participar en un CODELAB necesitaras traer tu laptop con <a href="https://nodejs.org/en/">NodeJS</a> y <a href="http://www.sublimetext.com/">algun editor de texto</a> instalado.</p>
+                                <p style="font-weight:300;">Para participar en un CODELAB necesitaras traer tu laptop con <a href="https://nodejs.org/en/"><strong>NodeJS</strong></a> y <a href="http://www.sublimetext.com/"><strong>algun editor de texto</strong></a> instalados.</p>
 
                                 <div class="row">
                                     <div class="input-field col s4">
