@@ -6,8 +6,11 @@
                 <form id="registerForm" class="register-card card">
                     <div class="card-content">
                         <span class="card-title">Registro</span>
+
                         <div class="row">
                             <div class="col l8 m12 s12" action=".">
+                                <p style="font-weight:300;">Para participar en un CODELAB necesitaras traer tu laptop con <a href="https://nodejs.org/en/">NodeJS</a> y <a href="http://www.sublimetext.com/">algun editor de texto</a> instalado.</p>
+
                                 <div class="row">
                                     <div class="input-field col s4">
                                         <input id="first_name" type="text" class="validate" data-validate="required" data-register="first_name">

@@ -6,12 +6,12 @@
             <div class="col l4 m6 s12">
                 <span class="topic-icon"><i class="material-icons medium">mic</i></span>
                 <h5 class="title">Charlas</h5>
-                <p>Comparte con los Google Developer Experts el uso de tecnologías Google</p>
+                <p>Expertos compartiran con nosotros el uso y su experiencia de nuevas tecnologias.</p>
             </div>
             <div class="col l4 m6 s12">
                 <span class="topic-icon"><i class="material-icons medium">code</i></span>
                 <h5 class="title">Codelabs</h5>
-                <p>Ven y aprende con nosotros con codelabs practicos Tecnologías que causan furor.</p>
+                <p>Ven y participa de talleres practicos con Expertos en el area, lo unico que necesitas es registrarte al evento y traer tu laptop.</p>
             </div>
             <div class="col l4 m12 s12">
                 <span class="topic-icon"><i class="material-icons medium">dashboard</i></span>
