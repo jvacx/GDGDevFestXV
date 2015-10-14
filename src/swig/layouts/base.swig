@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>{% block title %}{% endblock %} &#124; DevFest XV</title>
+    <title>{% block title %}{% endblock %} &#124;</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Dev Fest - La Paz, Bolivia 2015">

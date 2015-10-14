@@ -4,7 +4,7 @@
 {% block extrahead %}{% endblock %}
 
 
-{% block title %}Home{% endblock %}
+{% block title %}DevFest 2015{% endblock %}
 
 
 {% block content %}
