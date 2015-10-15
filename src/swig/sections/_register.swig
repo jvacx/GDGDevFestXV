@@ -172,7 +172,7 @@
                                         <li>Credencial del Evento.</li>
                                         <li>Posibilidad de registrarse a un Codelab.</li>
                                     </ul>
-                                </p>
+                                </p>Ó
                                 <hr>
                                 <span class="subtitle">Estudiantes</span>
                                 <div class="row">
@@ -207,8 +207,8 @@
                                 <span class="owner">JUAN VICTOR AGUILAR CUSICANQUI </span>
 
                                 <span class="bank">BCP</span class="bank">
-                                <span class="account">201-50823048-3-93</span>
-                                <span class="owner">JUAN VICTOR AGUILAR CUSICANQUI </span>
+                                <span class="account">201-50904164-3-28</span>
+                                <span class="owner">JENNYLEE DAYAN MURILLO ZAMBRANA</span>
 
                                 <span class="bank">BNB</span class="bank">
                                 <span class="account">150-1261749</span>
