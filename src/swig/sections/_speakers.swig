@@ -13,9 +13,9 @@
                         </button>
 
                         <div class="card-face-summary">
-                            <h5 class="card-face__name" data-value="full_name"></h5>
+                            <h5 class="card-face__name minor" data-value="full_name"></h5>
                             <span class="card-face__title" data-value="position"></span>
-                            <p data-value="bio"></p>
+                            <p data-value="bio" class="speaker-bio"></p>
                         </div>
 
                     </div>
