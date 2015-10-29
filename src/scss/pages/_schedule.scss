@@ -18,6 +18,13 @@
     .tabs .indicator {
         background-color: $teal;
     }
+
+    .download-link {
+        font-size: 20px;
+        color: $teal;
+        font-weight: 400;
+        font-style: italic;
+    }
 }
 .tabs-panel-wrapper {
     padding-top: 40px !important;

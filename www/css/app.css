@@ -414,17 +414,24 @@ body {
 .schedule-block .tabs .indicator {
   background-color: #009688;
 }
-
 /* line 22, ../../src/scss/pages/_schedule.scss */
+.schedule-block .download-link {
+  font-size: 20px;
+  color: #009688;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* line 29, ../../src/scss/pages/_schedule.scss */
 .tabs-panel-wrapper {
   padding-top: 40px !important;
 }
 
-/* line 25, ../../src/scss/pages/_schedule.scss */
+/* line 32, ../../src/scss/pages/_schedule.scss */
 .schedule-item {
   overflow: hidden;
 }
-/* line 28, ../../src/scss/pages/_schedule.scss */
+/* line 35, ../../src/scss/pages/_schedule.scss */
 .schedule-item .schedule-item-img {
   width: 120px;
   float: left;
@@ -433,7 +440,7 @@ body {
   z-index: 9;
   text-align: center;
 }
-/* line 36, ../../src/scss/pages/_schedule.scss */
+/* line 43, ../../src/scss/pages/_schedule.scss */
 .schedule-item .avatar-image {
   width: 100px;
   height: 100px;
@@ -443,30 +450,30 @@ body {
   background-color: #ffffff;
   border: 2px solid #cccccc;
 }
-/* line 45, ../../src/scss/pages/_schedule.scss */
+/* line 52, ../../src/scss/pages/_schedule.scss */
 .schedule-item .schedule-item-info {
   padding: 0 0 0 70px;
   box-sizing: border-box;
 }
-/* line 49, ../../src/scss/pages/_schedule.scss */
+/* line 56, ../../src/scss/pages/_schedule.scss */
 .schedule-item .item-info-inner {
   border-left: 2px solid #cccccc;
   padding: 15px 0 40px 50px;
   z-index: 10;
   box-sizing: border-box;
 }
-/* line 55, ../../src/scss/pages/_schedule.scss */
+/* line 62, ../../src/scss/pages/_schedule.scss */
 .schedule-item .item-info-inner h5 {
   font-size: 22px;
   margin-top: 4px;
   font-weight: 300;
 }
-/* line 62, ../../src/scss/pages/_schedule.scss */
+/* line 69, ../../src/scss/pages/_schedule.scss */
 .schedule-item .item-info-time {
   vertical-align: middle;
   color: #00635a;
 }
-/* line 66, ../../src/scss/pages/_schedule.scss */
+/* line 73, ../../src/scss/pages/_schedule.scss */
 .schedule-item .item-info-time span {
   font-family: inherit;
   font-size: 16px;
@@ -476,12 +483,12 @@ body {
   margin-left: 5px;
   position: relative;
 }
-/* line 76, ../../src/scss/pages/_schedule.scss */
+/* line 83, ../../src/scss/pages/_schedule.scss */
 .schedule-item .item-info-time .fa {
   font-size: 1.1em;
   color: #949da4;
 }
-/* line 81, ../../src/scss/pages/_schedule.scss */
+/* line 88, ../../src/scss/pages/_schedule.scss */
 .schedule-item .schedule-break {
   height: 66px;
   width: 66px;
