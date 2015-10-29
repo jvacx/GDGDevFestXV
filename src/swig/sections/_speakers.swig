@@ -62,3 +62,7 @@
         </div>
     </div>
 </div>
+
+<div class="more-speakers">
+    <a class="waves-effect waves-teal btn-flat button-more">VER MAS</a>
+</div>

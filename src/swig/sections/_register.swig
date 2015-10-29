@@ -172,7 +172,7 @@
                                         <li>Credencial del Evento.</li>
                                         <li>Posibilidad de registrarse a un Codelab.</li>
                                     </ul>
-                                </p>Ó
+                                </p>
                                 <hr>
                                 <span class="subtitle">Estudiantes</span>
                                 <div class="row">

@@ -498,8 +498,10 @@ body {
 /* line 1, ../../src/scss/pages/_speakers.scss */
 .speakers-block {
   padding: 50px 0;
+  height: 520px;
+  overflow: hidden;
 }
-/* line 4, ../../src/scss/pages/_speakers.scss */
+/* line 7, ../../src/scss/pages/_speakers.scss */
 .speakers-block .main-title {
   font-family: "Roboto";
   font-weight: 300;
@@ -507,8 +509,12 @@ body {
   font-size: 33px;
   margin-bottom: 1.2em;
 }
+/* line 15, ../../src/scss/pages/_speakers.scss */
+.speakers-block.open {
+  height: auto;
+}
 
-/* line 12, ../../src/scss/pages/_speakers.scss */
+/* line 19, ../../src/scss/pages/_speakers.scss */
 .speaker-card {
   background-color: #FFF;
   position: relative;
@@ -524,18 +530,18 @@ body {
   border-radius: 4px;
 }
 @media (max-width: 767px) {
-  /* line 12, ../../src/scss/pages/_speakers.scss */
+  /* line 19, ../../src/scss/pages/_speakers.scss */
   .speaker-card {
     width: 100%;
     height: 405px;
     border-radius: 3px;
   }
-  /* line 31, ../../src/scss/pages/_speakers.scss */
+  /* line 38, ../../src/scss/pages/_speakers.scss */
   .speaker-card:hover {
     cursor: pointer;
   }
 }
-/* line 36, ../../src/scss/pages/_speakers.scss */
+/* line 43, ../../src/scss/pages/_speakers.scss */
 .speaker-card .card-face__name {
   color: #2e2e2e;
   font-size: 22px;
@@ -551,11 +557,11 @@ body {
   animation-fill-mode: both;
   animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
 }
-/* line 53, ../../src/scss/pages/_speakers.scss */
+/* line 60, ../../src/scss/pages/_speakers.scss */
 .speaker-card .card-face__name.minor {
   font-size: 18px;
 }
-/* line 58, ../../src/scss/pages/_speakers.scss */
+/* line 65, ../../src/scss/pages/_speakers.scss */
 .speaker-card .card-face__title {
   font-size: 12px;
   color: #949494;
@@ -574,7 +580,7 @@ body {
   animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
   text-transform: uppercase;
 }
-/* line 78, ../../src/scss/pages/_speakers.scss */
+/* line 85, ../../src/scss/pages/_speakers.scss */
 .speaker-card .card-face__title:after {
   content: "";
   width: 70px;
@@ -582,7 +588,7 @@ body {
   margin: 20px auto 0 auto;
   display: block;
 }
-/* line 88, ../../src/scss/pages/_speakers.scss */
+/* line 95, ../../src/scss/pages/_speakers.scss */
 .speaker-card .card-face-footer {
   left: 0;
   right: 0;
@@ -592,11 +598,11 @@ body {
   border-top: 1px solid #ecf0f1;
   padding-top: 10px;
 }
-/* line 96, ../../src/scss/pages/_speakers.scss */
+/* line 103, ../../src/scss/pages/_speakers.scss */
 .speaker-card .card-face-footer li {
   display: inline-block;
 }
-/* line 100, ../../src/scss/pages/_speakers.scss */
+/* line 107, ../../src/scss/pages/_speakers.scss */
 .speaker-card .card-face-footer .card-face__social {
   border: 1px solid transparent;
   display: inline-block;
@@ -616,47 +622,47 @@ body {
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
-/* line 115, ../../src/scss/pages/_speakers.scss */
+/* line 122, ../../src/scss/pages/_speakers.scss */
 .speaker-card .card-face-footer .card-face__social:hover {
   color: white;
 }
-/* line 118, ../../src/scss/pages/_speakers.scss */
+/* line 125, ../../src/scss/pages/_speakers.scss */
 .speaker-card .card-face-footer .card-face__social.google-plus:hover {
   background: #dd4b39;
   border: 1px solid darlen(#dd4b39, 10%);
 }
-/* line 122, ../../src/scss/pages/_speakers.scss */
+/* line 129, ../../src/scss/pages/_speakers.scss */
 .speaker-card .card-face-footer .card-face__social.twitter:hover {
   background: #00aced;
   border: 1px solid #0087ba;
 }
-/* line 127, ../../src/scss/pages/_speakers.scss */
+/* line 134, ../../src/scss/pages/_speakers.scss */
 .speaker-card .card-face-footer .card-face__social.github:hover {
   background: #2e2e2e;
   border: 1px solid #141414;
 }
-/* line 132, ../../src/scss/pages/_speakers.scss */
+/* line 139, ../../src/scss/pages/_speakers.scss */
 .speaker-card .card-face-footer .card-face__social.speech:hover {
   background: #009688;
   border: 1px solid #00635a;
 }
-/* line 138, ../../src/scss/pages/_speakers.scss */
+/* line 145, ../../src/scss/pages/_speakers.scss */
 .speaker-card .card-face-summary {
   width: 100%;
   font-weight: 300;
   padding: 20px;
   text-overflow: ellipsis;
 }
-/* line 143, ../../src/scss/pages/_speakers.scss */
+/* line 150, ../../src/scss/pages/_speakers.scss */
 .speaker-card .card-face-summary p {
   margin: 0;
 }
-/* line 145, ../../src/scss/pages/_speakers.scss */
+/* line 152, ../../src/scss/pages/_speakers.scss */
 .speaker-card .speaker-bio {
   font-size: 12px;
 }
 
-/* line 152, ../../src/scss/pages/_speakers.scss */
+/* line 159, ../../src/scss/pages/_speakers.scss */
 .card-face {
   width: 100%;
   height: 100%;
@@ -669,26 +675,26 @@ body {
   flex-direction: column;
 }
 
-/* line 165, ../../src/scss/pages/_speakers.scss */
+/* line 172, ../../src/scss/pages/_speakers.scss */
 .card-face.face-1 {
   transform: translateX(0);
 }
-/* line 168, ../../src/scss/pages/_speakers.scss */
+/* line 175, ../../src/scss/pages/_speakers.scss */
 .show-menu .card-face.face-1 {
   transform: translateX(-100%);
 }
 
-/* line 173, ../../src/scss/pages/_speakers.scss */
+/* line 180, ../../src/scss/pages/_speakers.scss */
 .card-face.face-2 {
   justify-content: center;
   transform: translateX(100%);
 }
-/* line 177, ../../src/scss/pages/_speakers.scss */
+/* line 184, ../../src/scss/pages/_speakers.scss */
 .show-menu .card-face.face-2 {
   transform: translateX(0);
 }
 
-/* line 182, ../../src/scss/pages/_speakers.scss */
+/* line 189, ../../src/scss/pages/_speakers.scss */
 .card-face__menu-button {
   background: transparent;
   border: none;
@@ -712,16 +718,16 @@ body {
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 200, ../../src/scss/pages/_speakers.scss */
+/* line 207, ../../src/scss/pages/_speakers.scss */
 .card-face__menu-button:hover {
   color: #2e2e2e;
 }
-/* line 203, ../../src/scss/pages/_speakers.scss */
+/* line 210, ../../src/scss/pages/_speakers.scss */
 .card-face__menu-button:focus {
   background: none;
 }
 
-/* line 206, ../../src/scss/pages/_speakers.scss */
+/* line 213, ../../src/scss/pages/_speakers.scss */
 .card-face__back-button {
   position: absolute;
   top: 15px;
@@ -732,18 +738,18 @@ body {
   padding: 5px 15px;
   z-index: 100;
 }
-/* line 216, ../../src/scss/pages/_speakers.scss */
+/* line 223, ../../src/scss/pages/_speakers.scss */
 .card-face__back-button img {
   pointer-events: none;
   height: 18px;
   width: 18px;
 }
-/* line 222, ../../src/scss/pages/_speakers.scss */
+/* line 229, ../../src/scss/pages/_speakers.scss */
 .card-face__back-button:focus {
   background: none;
 }
 
-/* line 225, ../../src/scss/pages/_speakers.scss */
+/* line 232, ../../src/scss/pages/_speakers.scss */
 .card-face__settings-button {
   position: absolute;
   bottom: 0px;
@@ -754,7 +760,7 @@ body {
   padding: 10px;
 }
 
-/* line 235, ../../src/scss/pages/_speakers.scss */
+/* line 242, ../../src/scss/pages/_speakers.scss */
 .card-face__avatar {
   display: block;
   width: 125px;
@@ -769,11 +775,25 @@ body {
   animation-fill-mode: both;
   animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
 }
-/* line 249, ../../src/scss/pages/_speakers.scss */
+/* line 256, ../../src/scss/pages/_speakers.scss */
 .card-face__avatar img {
   border-radius: 50%;
   height: 100%;
   width: 100%;
+}
+
+/* line 264, ../../src/scss/pages/_speakers.scss */
+.more-speakers {
+  background-color: #FFF;
+  padding: 10px 0 40px 0;
+}
+/* line 268, ../../src/scss/pages/_speakers.scss */
+.more-speakers .button-more {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  font-weight: 600;
+  text-align: center;
 }
 
 @keyframes avatar {

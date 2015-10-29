@@ -13,6 +13,9 @@ $(document).on("ready", function(){
 
     var $intro = $('.intro-block');
     var $navbar = $('.navbar');
+    var $showMoreBlock = $(".more-speakers");
+    var $speakerBlock = $("#speakers-block");
+
 
     var valH = $(window).height();
 
@@ -121,7 +124,22 @@ $(document).on("ready", function(){
     $('#navPage').singlePageNav();
 
 
+    // Show more speakers
+    $(".button-more").click(function(){
 
+        if($speakerBlock.hasClass("open")) {
+            $speakerBlock.removeClass("open");
+            $(this).text("VER MAS");
+        } else {
+            $speakerBlock.addClass("open");
+            $(this).text("VER MENOS");
+        }
+
+        $('html, body').animate({
+            scrollTop: $speakerBlock.offset().top
+        }, 300);
+
+    });
 
     // data-model
     // data-text
