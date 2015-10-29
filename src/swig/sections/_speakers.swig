@@ -64,5 +64,5 @@
 </div>
 
 <div class="more-speakers">
-    <a class="waves-effect waves-teal btn-flat button-more">VER MAS</a>
+    <a class="btn waves-effect waves-light waves-teal  button-more">VER MAS</a>
 </div>
