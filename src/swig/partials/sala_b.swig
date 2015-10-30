@@ -60,7 +60,7 @@
     {
         time: '12:35 - 12:45',
         title: 'Charla sobre emprendimiento',
-        speaker: 'Starup Weekend',
+        speaker: 'Comunidad',
         photo: '/img/avatar_default.png',
         type: 'SPEECH'
     },

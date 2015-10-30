@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <h4 class="main-title">Agenda
-                <a href="img/agenda.pdf" target="_blank"class="download-link">(<i class="fa fa-download"></i>Descargar)</a>
+                <a href="files/agenda.pdf" target="_blank"class="download-link">(<i class="fa fa-download"></i>Descargar)</a>
             </h4>
 
             <div class="col s12">

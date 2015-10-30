@@ -45,7 +45,7 @@
     },
     {
         time: '11:20 - 11:55',
-        title: 'Design Thinking: De la teoria a la practica',
+        title: 'Design Thinking - Aprendamos a diseñar!',
         speaker: 'Rosa María Orellana',
         photo: 'http://api.devfest.xyz/media/photos/2015/10/29/anamaria_8nB5Fiz.png',
         type: 'SPEECH'
