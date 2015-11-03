@@ -59,9 +59,9 @@
     },
     {
         time: '12:35 - 12:45',
-        title: 'Charla sobre emprendimiento',
-        speaker: 'Comunidad',
-        photo: '/img/avatar_default.png',
+        title: 'IGNITE: Bolivia Tech Hub origins',
+        speaker: 'Willmar Pimentel',
+        photo: 'http://api.devfest.xyz/media/photos/2015/11/03/willmar.png',
         type: 'SPEECH'
     },
     {

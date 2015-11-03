@@ -59,9 +59,9 @@
     },
     {
         time: '12:35 - 12:45',
-        title: 'Charla sobre emprendimiento',
-        speaker: 'Red Nueva Empresa',
-        photo: '/img/avatar_default.png',
+        title: 'IGNITE: Red Nueva Empresa',
+        speaker: 'Andres Vasquez',
+        photo: 'http://api.devfest.xyz/media/photos/2015/10/14/andres.jpg',
         type: 'SPEECH'
     },
     {
