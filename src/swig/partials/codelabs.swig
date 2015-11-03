@@ -9,7 +9,7 @@
     },
     {
         time: '09:15 - 10:25',
-        title: 'CODELAB: Google Carboards',
+        title: 'CODELAB: Build VR with Google CardBoard',
         speaker: 'Gustavo Lizarraga',
         photo: 'http://api.devfest.xyz/media/photos/2015/10/15/gustavo.jpg',
         type: 'SPEECH'

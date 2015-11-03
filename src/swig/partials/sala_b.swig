@@ -45,7 +45,7 @@
     },
     {
         time: '11:20 - 11:55',
-        title: 'Game development en la Web',
+        title: 'Desarrollo de videojuegos para llaneros solitarios',
         speaker: 'Ruth Garcia',
         photo: 'http://api.devfest.xyz/media/photos/2015/10/16/angry-miner.png',
         type: 'SPEECH'

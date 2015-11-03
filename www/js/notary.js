@@ -3,24 +3,33 @@ var Notary = Notary || {};
 
     var NotaryBase = {
 
-        populate: function(template, array, destiny, callback) {
+        populate: function(template, arrayOrObj, destiny, callback) {
             // template, array and destiny are  values from dom data-*
             var $template = $('[data-template="'+template+'"]');
             var $destiny = $('[data-container="'+destiny+'"]');
 
             var self = this;
-            $.each(array, function( index, obj ) {
+            if($.isArray(arrayOrObj)){
+                $.each(arrayOrObj, function( index, obj ) {
+                    var $newObj = self.makeObject($template, obj);
+                    $newObj.appendTo($destiny);
+
+                    // EXECUTE item callback
+                    // console.log(obj);
+
+                    if (!!callback)
+                        callback($newObj, obj);
+
+                });
+            } else {
                 var $newObj = self.makeObject($template, obj);
-                $newObj.appendTo($destiny);
+                    $newObj.appendTo($destiny);
+                    if (!!callback)
+                        callback($newObj, obj);
+            }
 
-                // EXECUTE item callback
-                // console.log(obj);
-
-                if (!!callback)
-                    callback($newObj, obj);
-
-            });
             $template.detach();
+
         },
 
         makeObject: function($template, obj){
